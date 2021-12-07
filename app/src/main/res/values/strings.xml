@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Restaurant Review</string>
+    <string name="loginmsg">Log in using your email address and your password</string>
+    <string name="facebook">Continue with Facebook</string>
+    <string name="google">Continue with Google</string>
+    <string name="logintext">Log In</string>
+    <string name="signuptext">Sign Up</string>
+    <string name="fontfamily">sans-serif</string>
+    <string name="searchboxtext">What are you looking for?</string>
+    <string name="agreementtext">By continuing, you agree to app\' s Terms of Service and acknowledge app\' Privacy Policy</string>
+    <string name="skip">SKIP</string>
+    <string name="gridmenu1">Breakfast</string>
+    <string name="gridmenu2">Lunch</string>
+    <string name="gridmenu3">Dinner</string>
+    <string name="gridmenu4">Coffee&amp;Tea</string>
+    <string name="gridmenu5">Nightlife</string>
+    <string name="gridmenu6">Things to do</string>
+    <string name="search"> Search</string>
+    <string name="metext">Me</string>
+    <string name="liststext">Lists</string>
+    <string name="addphoto">Add photo</string>
+    <string name="addreview">Add review</string>
+    <string name="addcheckin">Check in</string>
+    <string name="reviews">Reviews added:</string>
+    <string name="photos">Photos added:</string>
+    <string name="checkins">Check ins added</string>
+    <string name="signout">Sign out</string>
+    <string name="savedplaces">My saved places</string>
+    <string name="likedplaces">My liked places</string>
+    <string name="newlist">Create a new list</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="backtext">Back</string>
+    <string name="emailcreation_hint">Enter your email adress</string>
+    <string name="passwordcreation_hint">Enter your password</string>
+    <string name="failedsignin">Could\'t sign you in</string>
+    <string name="age_hint">Age</string>
+    <string name="signupfailed">Authentification Failed</string>
+    <string-array name="tabTitles">
+        <item>Search</item>
+        <item>Me</item>
+        <item>Lists</item>
+    </string-array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="restaurantName">Nandos</string>
+    <string name="reviewText">" Food was incredible, in fact, the nicest meal Ive had out in a long time."</string>
+
+</resources>

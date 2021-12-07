@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mateusz_zatorski_vxyglqfx01q_unsplash"
+    tools:context=".fragments.ListFragment">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/savedplaces"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/savedplaces"
+        android:textColor="@color/primary_text"
+        android:drawableBottom="@drawable/ic_baseline_saved_search_24"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/likedplaces"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/likedplaces"
+        android:textColor="@color/primary_text"
+        android:drawableBottom="@drawable/ic_baseline_favorite_24"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/newlistbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_centerInParent="true"
+        android:text="@string/newlist"
+        android:textColor="@color/primary_text"
+        android:background="@drawable/round_button"
+        android:drawableBottom="@drawable/ic_baseline_add_circle_24"/>
+
+</RelativeLayout>

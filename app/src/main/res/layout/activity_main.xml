@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kate_hliznitsova_tfphuov2yfq_unsplash"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/skipbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:text="@string/skip"
+        android:textColor="@color/primary_text"
+        app:backgroundTint="@color/icons"/>
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/loginmsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:fontFamily="@string/fontfamily"
+        android:text="@string/loginmsg"
+        android:textColor="@color/icons"
+        android:textSize="16sp" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/agreementtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:gravity="center"
+        android:fontFamily="@string/fontfamily"
+        android:text="@string/agreementtext"
+        android:textColor="@color/icons"
+        android:textSize="16sp"/>
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/googlebtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/fbbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:gravity="center"
+        android:drawableLeft="@drawable/fb_logo__2_"
+        android:text="@string/facebook"
+        android:textColor="@color/primary_text"
+        app:backgroundTint="@color/accent"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/loginbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:layout_alignParentLeft="true"
+        android:text="@string/logintext"
+        android:textColor="@color/primary_text"
+        app:backgroundTint="@color/icons" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/signupbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:layout_alignParentRight="true"
+        android:text="@string/signuptext"
+        android:textColor="@color/primary_text"
+        app:backgroundTint="@color/icons" />
+</RelativeLayout>

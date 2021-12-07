@@ -1,0 +1,2 @@
+com/example/restaurantreviewapp/BuildConfig.java
+ com.example.restaurantreviewapp.BuildConfig

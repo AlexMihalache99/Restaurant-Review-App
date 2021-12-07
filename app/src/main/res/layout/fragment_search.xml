@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/mateusz_zatorski_vxyglqfx01q_unsplash"
+    tools:context=".fragments.SearchFragment">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:drawableLeft="@drawable/ic_baseline_search_24"
+        android:gravity="center"
+        android:text="@string/searchboxtext"
+        android:textColor="@color/primary_text"
+        android:backgroundTint="@color/icons"/>
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        app:columnCount="3"
+        app:rowCount="2">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/breakfast"
+            app:layout_column="0"
+            app:layout_row="0"
+            android:layout_width="136dp"
+            android:backgroundTint="@color/primary"
+            android:drawableBottom="@drawable/breakfast"
+            android:fontFamily="@string/fontfamily"
+            android:text="@string/gridmenu1"
+            android:textAlignment="center"
+            android:textSize="11sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/lunch"
+            app:layout_column="1"
+            app:layout_row="0"
+            android:layout_width="136dp"
+            android:backgroundTint="@color/primary"
+            android:drawableBottom="@drawable/lunch__1_"
+            android:fontFamily="@string/fontfamily"
+            android:text="@string/gridmenu2"
+            android:textAlignment="center"
+            android:textSize="11sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/dinner"
+            app:layout_column="2"
+            app:layout_row="0"
+            android:layout_width="136dp"
+            android:backgroundTint="@color/primary"
+            android:drawableBottom="@drawable/dinner__1_"
+            android:fontFamily="@string/fontfamily"
+            android:text="@string/gridmenu3"
+            android:textAlignment="center"
+            android:textSize="11sp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/coffee"
+            app:layout_column="0"
+            app:layout_row="1"
+            android:layout_width="136dp"
+            android:backgroundTint="@color/primary"
+            android:drawableBottom="@drawable/coffee__1_"
+            android:fontFamily="@string/fontfamily"
+            android:text="@string/gridmenu4"
+            android:textAlignment="center"
+            android:textSize="11sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/nightlife"
+            app:layout_column="1"
+            app:layout_row="1"
+            android:layout_width="136dp"
+            android:backgroundTint="@color/primary"
+            android:drawableBottom="@drawable/nightlife__1_"
+            android:fontFamily="@string/fontfamily"
+            android:text="@string/gridmenu5"
+            android:textAlignment="center"
+            android:textSize="11sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/things"
+            app:layout_column="2"
+            app:layout_row="1"
+            android:layout_width="136dp"
+            android:backgroundTint="@color/primary"
+            android:drawableBottom="@drawable/things__1_"
+            android:fontFamily="@string/fontfamily"
+            android:text="@string/gridmenu6"
+            android:textAlignment="center"
+            android:textSize="11sp" />
+
+    </androidx.gridlayout.widget.GridLayout>
+
+</RelativeLayout>
